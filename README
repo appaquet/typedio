@@ -1,0 +1,5 @@
+Go io.Reader, io.Writer wrapper to support primitive (int, string, bool, etc.) writing/reading
+
+To install: goinstall github.com/appaquet/typedio
+
+To use: simply wrap your io.Reader or io.Writer with typedio.NewReader(read) and typedio.NewWriter(writer). You can then use ReadString, WriteString like methods.
